@@ -9,7 +9,7 @@ const PORT = 3000;
 // Middleware
 app.use(cors());
 app.use(express.json());
-app.use(express.static('public')); // Untuk serve file HTML
+app.use(express.static('public'));
 
 // ========== Konfigurasi MQTT ==========
 const MQTT_BROKER = 'mqtts://3d334b6b47764fffb7480823a8402c8c.s1.eu.hivemq.cloud';
@@ -199,7 +199,7 @@ app.get('/api/sensor/latest', (req, res) => {
   });
 });
 
-// API Endpoint: POST data dari ESP32 (alternatif selain MQTT)
+// API Endpoint: POST data dari ESP32 
 app.post('/api/sensor/data', (req, res) => {
   const { suhu, kelembapan, lux, pompa, status_led, device_id } = req.body;
   
@@ -240,7 +240,7 @@ app.post('/api/sensor/data', (req, res) => {
   });
 });
 
-// API Endpoint: Control pompa - INI YANG DIPERBAIKI
+// API Endpoint: Control pompa
 app.post('/api/control/pompa', (req, res) => {
   const { state } = req.body; // state: true/false
   
