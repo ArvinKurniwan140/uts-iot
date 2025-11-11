@@ -366,8 +366,6 @@ MIT License - Free to use for educational purposes
 
 ## 👨‍💻 Author
 
-**[Nama Anda]**
-
 - NIM: 152023140
 - Kelas: AA
 - Email: arvin.kurniawan@mhs.itenas.ac.id
