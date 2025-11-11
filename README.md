@@ -381,12 +381,4 @@ MIT License - Free to use for educational purposes
 
 ---
 
-## 📅 Timeline
-
-- **Start Date**: 11 November 2025, 07:30 WIB
-- **Deadline**: 11 November 2025, 22:00 WIB
-- **Submission**: Via Dropbox
-
----
-
 **⭐ Don't forget to star this repository if you find it helpful!**
